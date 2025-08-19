@@ -6,16 +6,16 @@ class Square:
         self.side = side
 
     def area(self):
-        return self.side**2
+        return round(self.side**2, 2)
 
     def diagonal(self):
-        return math.sqrt(2 * self.side**2)
+        return round(math.sqrt(2 * self.side**2), 2)
 
 
 square1 = Square(side=1.5)
-print(f"{square1.area():.2f}")
-print(f"{square1.diagonal():.2f}")
+print(square1.area())
+print(square1.diagonal())
 
 square2 = Square(side=15)
 print(square2.area())
-print(f"{square2.diagonal():.2f}")
+print(square2.diagonal())
