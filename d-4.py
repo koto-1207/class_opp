@@ -8,19 +8,19 @@ class MyCounterV1:
 
 
 counter1 = MyCounterV1(value=0)
-print(counter1.value)  # 0
+print(counter1.value)
 
 counter1.count_up()
-print(counter1.value)  # 1
+print(counter1.value)
 
 counter1.count_up()
-print(counter1.value)  # 2
+print(counter1.value)
 
 counter2 = MyCounterV1(value=7)
-print(counter2.value)  # 7
+print(counter2.value)
 
 counter2.count_up()
-print(counter2.value)  # 8
+print(counter2.value)
 
 counter2.count_up()
-print(counter2.value)  # 9
+print(counter2.value)
