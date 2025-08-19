@@ -5,28 +5,28 @@ class MyCounterV3:
 
     def count_up(self):
         self.value += self.step
-    
+
     def count_down(self):
         self.value -= self.step
 
 
 counter1 = MyCounterV3(value=1, step=2)
-print(counter1.value)  # 1
+print(counter1.value)
 
 counter1.count_up()
-print(counter1.value)  # 3
+print(counter1.value)
 
 counter1.count_up()
-print(counter1.value)  # 5
+print(counter1.value)
 
 counter1.count_down()
-print(counter1.value)  # 3
+print(counter1.value)
 
 counter2 = MyCounterV3(value=3, step=4)
-print(counter2.value)  # 3
+print(counter2.value)
 
 counter2.count_down()
-print(counter2.value)  # -1
+print(counter2.value)
 
 counter2.count_down()
-print(counter2.value)  # -5
+print(counter2.value)
