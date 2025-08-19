@@ -13,9 +13,9 @@ class Square:
 
 
 square1 = Square(side=1.5)
-print(f"{square1.area():.2f}")  # 2.25
-print(f"{square1.diagonal():.2f}")  # 2.12
+print(f"{square1.area():.2f}")
+print(f"{square1.diagonal():.2f}")
 
 square2 = Square(side=15)
-print(square2.area())  # 225
-print(f"{square2.diagonal():.2f}")  # 21.21
+print(square2.area())
+print(f"{square2.diagonal():.2f}") 
