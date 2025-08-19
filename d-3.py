@@ -18,4 +18,4 @@ print(f"{square1.diagonal():.2f}")
 
 square2 = Square(side=15)
 print(square2.area())
-print(f"{square2.diagonal():.2f}") 
+print(f"{square2.diagonal():.2f}")
